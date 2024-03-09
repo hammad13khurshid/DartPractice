@@ -40,3 +40,11 @@ void main() {
   print(
       'Division of First Number: $firstNumber and Second Number: $secondNumber is: $division\n\n');
 }
+
+
+
+//Topics Covered
+// 1. Basic math operations in Dart like + - * /.
+// 2. int data type.
+// 3. double data type.
+// 4. using $ to call functions in print function.
