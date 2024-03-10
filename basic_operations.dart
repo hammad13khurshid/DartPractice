@@ -1,50 +1,45 @@
-//This is my second program in dart.
+/*
+* This program demonstrates basic arithmetic operations in Dart with clear comments for beginners.
+*/
 
 void main() {
-  print("\n\n\t\t<<<<<<<This is my second program in dart>>>>>\n\t\t");
-  print("**** Let's learn basic operations in dart ****\n\n");
+  // Print a header for the program
+  print("****************************************************************");
+  print("** Welcome to the Dart Basic Operations Program! **");
+  print("****************************************************************\n");
 
-  print("\t\t| Addition |");
-  print("This is a module to print addition of two numbers");
-  int firstNumber = 5; //int is a data type to store integers.
+  // Addition
+  print("\n** Addition **");
+  int firstNumber = 5; // Declare variables for numbers, using descriptive names
   int secondNumber = 10;
-  int addition =
-      firstNumber + secondNumber; //this is the basic addition of two numbers.
+  int sum = firstNumber + secondNumber; // Perform addition
+  print("The sum of $firstNumber and $secondNumber is: $sum\n");
+
+  // Subtraction
+  print("\n** Subtraction **");
+  int difference = firstNumber - secondNumber; // Perform subtraction
   print(
-      'Addition of First Number: $firstNumber and Second Number: $secondNumber is: $addition\n\n'); //$ is used call a function inside print statement/
+      "The difference between $firstNumber and $secondNumber is: $difference\n");
 
-  print('****************************************************************');
+  // Multiplication
+  print("\n** Multiplication **");
+  int product = firstNumber * secondNumber; // Perform multiplication
+  print("The product of $firstNumber and $secondNumber is: $product\n");
 
-  print("\t\t| Subtraction |"); //Module to subtract two integers.
-  print("This is a module to print Subtraction of two numbers");
-  int subtraction = firstNumber -
-      secondNumber; //this is the basic Subtraction of two numbers.
+  // Division
+  print("\n** Division **");
+  double quotient =
+      firstNumber / secondNumber; // Use double for decimal results
   print(
-      'Subtraction of First Number: $firstNumber and Second Number: $secondNumber is: $subtraction\n\n');
+      "The quotient of $firstNumber divided by $secondNumber is: $quotient\n");
 
-  print('****************************************************************');
+  print("****************************************************************\n");
+  print("** End of program **");
+  print("****************************************************************");
 
-  print("\t\t| Multiplication |"); //Module to subtract two integers.
-  print("This is a module to print Multiplication of two numbers");
-  int multiplication = firstNumber *
-      secondNumber; //this is the basic Multiplication of two numbers.
-  print(
-      'Multiplication of First Number: $firstNumber and Second Number: $secondNumber is: $multiplication\n\n');
-
-  print('****************************************************************');
-
-  print("\t\t| Subtraction |"); //Module to subtract two integers.
-  print("This is a module to print Division of two numbers");
-  double division = //double is used to store values in points like 1.0 or 1.52
-      firstNumber / secondNumber; //this is the basic Division of two numbers.
-  print(
-      'Division of First Number: $firstNumber and Second Number: $secondNumber is: $division\n\n');
+  // ** Topics covered in this program: **
+  // 1. Basic arithmetic operations in Dart (+, -, *, /)
+  // 2. Declaring and using integer (`int`) variables to store whole numbers.
+  // 3. Declaring and using double (`double`) variables to store decimal numbers.
+  // 4. String interpolation (`$`) to embed variables within print statements.
 }
-
-
-
-//Topics Covered
-// 1. Basic math operations in Dart like + - * /.
-// 2. int data type.
-// 3. double data type.
-// 4. using $ to call functions in print function.

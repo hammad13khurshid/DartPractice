@@ -1,10 +1,39 @@
-# DartPractice
-This repo is dedicated to my daily learnings and practice in Dart lang.
+# Dart Practice
+
+This repository serves as a dedicated space for my daily learning and practice of the Dart programming language.
 
 
-## Day 1
-* Hello World program.
-* Printing output using print, stdout.write and stdout.writeln
-* Basic Math operations in Dart.
-* Using $ to call functions in output.
-* Using /n and /t.
+## Day 1:
+
+* **Hello World Program:** Created a classic "Hello World" program to kickstart the journey.
+  ```dart
+    print("Hello World); 
+    //print(""); is used to display something on the console.
+
+* **Output Methods:** Explored various output methods using `print`, `stdout.write`, and `stdout.writeln`.
+  ```dart
+  print("Hello World"); 
+  stdout.write("Hello World");
+  stdout.writeln("Hello World");
+  //All above used functions are used to dsiplay output but have their own uses.
+
+* **Basic Math Operations:** Mastered basic mathematical operations in Dart.
+  ```dart
+  int firstNumber = 1;
+  int secondNumber = 2;
+  int sum = firstNumber + secondNumber;
+  int Subtract = firstNumber - secondNumber;
+  int Multiply = firstNumber * secondNumber;
+  double Divide = firstNumber / secondNumber;
+  //Above are the implementation of basic math operations.
+
+* **String Interpolation:** Utilized the `$` symbol for convenient string interpolation in output statements.  
+   ```dart
+   var name = "Alice";
+   print("Hello, $name!"); 
+   // $ is used to call a function inside the print statements without having to write extra line of code.
+
+* **Newline and Tab Characters:** Employed `\n` and `\t` for adding newlines and tabs within output strings.
+   ```dart
+   print("Hello \t World, \n I'm Hammad Khurshid");
+   // \t is used to add space between output and \n is used to add a new line.

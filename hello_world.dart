@@ -1,24 +1,24 @@
-// This is my first ever program in dart
+/*
+* This program is your first step into the world of Dart programming!
+*/
 
 import 'dart:io';
 
 void main() {
-  //This is the entry point of a program
-  print('Hello World.... :)');
-  //print function is used to print some output.
+  // This function serves as the program's starting point
+  print('Hello World.... :)'); // Print a friendly greeting
 
-  print("I'm Hammad Khurshid, This is my first program in dart.");
-  //To use print function, ('Example') or ("Example") should be used.
+  print(
+      "I'm Hammad Khurshid, This is my first program in Dart."); // Introduce yourself and the program
 
-  stdout.write("I'm learning Dart Programming. ");
-  //stdout.write function is used to print some output just like print function.
-  stdout.writeln("Dart Programming is fun");
-  //stdout.writeln works just like print and stdout.write but adds a new line after printing.
+  // Explore different output methods:
+  stdout.write(
+      "I'm learning Dart Programming. "); // Write without adding a newline
+  stdout.writeln("Dart Programming is fun!"); // Write and add a newline
+
+  // ** Topics covered in this program: **
+  // 1. `main` Function: The program's entry point where execution begins.
+  // 2. `print` Function: Used to display output on the console.
+  // 3. `stdout.write` Function: Outputs text without adding a newline.
+  // 4. `stdout.writeln` Function: Outputs text and adds a newline afterwards.
 }
-
-
-// Topics learned: 
-//1. Main Function.
-//2. print function. 
-//3. stdout.write function.
-//4. stdout.writeln function.
