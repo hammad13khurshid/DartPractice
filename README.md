@@ -37,3 +37,9 @@ This repository serves as a dedicated space for my daily learning and practice o
    ```dart
    print("Hello \t World, \n I'm Hammad Khurshid");
    // \t is used to add space between output and \n is used to add a new line.
+
+* **Getting User Input:** Learned how to interact with users and retrieve input from them while implementing non-Null Insertion in Dart.
+   ```dart
+   String name = stdin.readLineSync()!; // Get user's name as a string (use ! for non-null assertion)
+   int age = int.parse(stdin.readLineSync()!); // Get user's age as an integer (use ! for non-null assertion)
+   print("Your name is: $name and your age is: $age");
