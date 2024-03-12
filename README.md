@@ -52,3 +52,19 @@ This repository serves as a dedicated space for my daily learning and practice o
   var mySkills = ['Dart', 'Flutter', 'WordPress', 'Shopify']; // this is a list of ordered values of string starting from index 0.
   var skillPercentage = {'Dart': '80', 'Flutter': '75', 'WordPress': '90', 'Shopify': '90'}; //This is a map which store values in key-pairs.
   print("This is a string value: $name, \n This is a numeric value: $age, \n This is a var value: $funFact, \n This is a list: $mySkills, \n This is a a map: $skillPercentage.");
+
+* **Assignment:** Use concepts learned in Day 1 and code a basic calculator.
+  ```dart
+  /*
+ * Summary:
+ 
+ * This program demonstrates the following concepts learned in Day 1 of Dart:
+ 
+ *  - **Input/Output:** Uses `print` to display messages and `stdin.readLineSync` to get user input.
+ *  - **Variables:** Declares and uses variables of type `int` (whole numbers) to store user input and calculation results.
+ *  - **Data Types:** Uses the built-in `int` data type for whole numbers and implicitly converts user input (strings) to integers using `int.parse`.
+ *  - **Basic Math Operations:** Performs addition, subtraction, multiplication, and division using arithmetic operators (+, -, *, /).
+ *  - **Comments:** Includes comments to explain the code's functionality and improve readability.
+ 
+ * This code provides a basic example of user interaction, data manipulation, and calculations in Dart.
+ */
