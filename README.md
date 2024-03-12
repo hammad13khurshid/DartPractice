@@ -54,9 +54,9 @@ This repository serves as a dedicated space for my daily learning and practice o
   print("This is a string value: $name, \n This is a numeric value: $age, \n This is a var value: $funFact, \n This is a list: $mySkills, \n This is a a map: $skillPercentage.");
 
 * <span style="color: red;">**Assignment:**</span> Use concepts learned in Day 1 and code a basic calculator.
- * Summary:
+  Summary:
  
- * This program demonstrates the following concepts learned in Day 1 of Dart:
+  This program demonstrates the following concepts learned in Day 1 of Dart:
  
  *  - **Input/Output:** Uses `print` to display messages and `stdin.readLineSync` to get user input.
  *  - **Variables:** Declares and uses variables of type `int` (whole numbers) to store user input and calculation results.
@@ -64,5 +64,5 @@ This repository serves as a dedicated space for my daily learning and practice o
  *  - **Basic Math Operations:** Performs addition, subtraction, multiplication, and division using arithmetic operators (+, -, *, /).
  *  - **Comments:** Includes comments to explain the code's functionality and improve readability.
  
- * This code provides a basic example of user interaction, data manipulation, and calculations in Dart.
+  This code provides a basic example of user interaction, data manipulation, and calculations in Dart.
  
