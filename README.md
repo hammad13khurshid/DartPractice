@@ -53,9 +53,7 @@ This repository serves as a dedicated space for my daily learning and practice o
   var skillPercentage = {'Dart': '80', 'Flutter': '75', 'WordPress': '90', 'Shopify': '90'}; //This is a map which store values in key-pairs.
   print("This is a string value: $name, \n This is a numeric value: $age, \n This is a var value: $funFact, \n This is a list: $mySkills, \n This is a a map: $skillPercentage.");
 
-* **Assignment:** Use concepts learned in Day 1 and code a basic calculator.
-  ```dart
-  /*
+* *Assignment:* Use concepts learned in Day 1 and code a basic calculator.
  * Summary:
  
  * This program demonstrates the following concepts learned in Day 1 of Dart:
@@ -67,4 +65,4 @@ This repository serves as a dedicated space for my daily learning and practice o
  *  - **Comments:** Includes comments to explain the code's functionality and improve readability.
  
  * This code provides a basic example of user interaction, data manipulation, and calculations in Dart.
- */
+ 
