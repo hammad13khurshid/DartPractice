@@ -43,3 +43,12 @@ This repository serves as a dedicated space for my daily learning and practice o
    String name = stdin.readLineSync()!; // Get user's name as a string (use ! for non-null assertion)
    int age = int.parse(stdin.readLineSync()!); // Get user's age as an integer (use ! for non-null assertion)
    print("Your name is: $name and your age is: $age");
+
+* **Data Types and Variables:** Learned data types and variables used in dart language.
+  ```dart
+  String name = "Hammad Khurshid"; //string is used to store string of characters, words and sentences.
+  int age = 21; //int is used to store positive and negative numbers.
+  var funFact = "I'm an ambievert"; // var is used to store both int, double, and string values determined at initialization.
+  var mySkills = ['Dart', 'Flutter', 'WordPress', 'Shopify']; // this is a list of ordered values of string starting from index 0.
+  var skillPercentage = {'Dart': '80', 'Flutter': '75', 'WordPress': '90', 'Shopify': '90'}; //This is a map which store values in key-pairs.
+  print("This is a string value: $name, \n This is a numeric value: $age, \n This is a var value: $funFact, \n This is a list: $mySkills, \n This is a a map: $skillPercentage.");
