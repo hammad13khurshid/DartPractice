@@ -77,3 +77,44 @@ This repository serves as a dedicated space for my daily learning and practice o
     print("These are comparison operatos: ==, >, <, >=, <=, !=");  //comparison operators are used to compare values and return true or false.
     //Logical operators.
     print("These are logical operators: &&, ||, ! ");  //Logical operators are used to combinely compare values and return true or false.
+
+*  **Conditional Statements** Conditional statements in Dart allow you to control the flow of your program's execution based on certain conditions. They let you make decisions within your code by checking if a condition is true or false.
+     This program demonstrates the following concepts in Dart programming:
+ 
+  1. Conditional Statements:
+     - `if-else`: Executes a code block if a condition is true, otherwise executes an alternative block (if provided) when the condition is false.
+     - Nested `if-else`: Allows for more complex logic by checking multiple conditions within a single statement.
+    ```dart
+     if(condition1 > condition2)
+      {
+        print("Condition 1 is true");
+      }
+     else
+      {
+       print("Condition 2 is true");
+      }
+ 
+  2. User Input:
+     - `stdin.readLineSync()`: Reads a line of text entered by the user from standard input (keyboard).
+     - `int.parse()`: Converts a string representation of an integer to an actual integer value.
+  
+  3. Switch Statement:
+     - Evaluates an expression and executes a block of code corresponding to the matching case value.
+     - A `default` case can handle values that dont match any specific case.
+     ```dart
+      int age = 20;
+
+       switch age
+        {
+         case 18:
+          print("You are allowed to vote.");
+          break;
+         case 17:
+         print("You are not allowed to vote.");
+         break:
+         default:
+         print("Enter a valid age");
+        } 
+
+  This program provides examples of these concepts through scenarios like checking eligibility for voting or scholarships based on age and CGPA. 
+ 
