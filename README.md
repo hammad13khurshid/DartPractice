@@ -53,16 +53,27 @@ This repository serves as a dedicated space for my daily learning and practice o
   var skillPercentage = {'Dart': '80', 'Flutter': '75', 'WordPress': '90', 'Shopify': '90'}; //This is a map which store values in key-pairs.
   print("This is a string value: $name, \n This is a numeric value: $age, \n This is a var value: $funFact, \n This is a list: $mySkills, \n This is a a map: $skillPercentage.");
 
-* <span style="color: red;">**Assignment:**</span> Use concepts learned in Day 1 and code a basic calculator.
-  Summary:
+* **Assignment:**Use concepts learned in Day 1 and code a basic calculator.
+  ***Summary:***
  
   This program demonstrates the following concepts learned in Day 1 of Dart:
  
- *  - **Input/Output:** Uses `print` to display messages and `stdin.readLineSync` to get user input.
- *  - **Variables:** Declares and uses variables of type `int` (whole numbers) to store user input and calculation results.
- *  - **Data Types:** Uses the built-in `int` data type for whole numbers and implicitly converts user input (strings) to integers using `int.parse`.
- *  - **Basic Math Operations:** Performs addition, subtraction, multiplication, and division using arithmetic operators (+, -, *, /).
- *  - **Comments:** Includes comments to explain the code's functionality and improve readability.
+   - **Input/Output:** Uses `print` to display messages and `stdin.readLineSync` to get user input.
+   - **Variables:** Declares and uses variables of type `int` (whole numbers) to store user input and calculation results.
+   - **Data Types:** Uses the built-in `int` data type for whole numbers and implicitly converts user input (strings) to integers using `int.parse`.
+   - **Basic Math Operations:** Performs addition, subtraction, multiplication, and division using arithmetic operators (+, -, *, /).
+   - **Comments:** Includes comments to explain the code's functionality and improve readability.
  
   This code provides a basic example of user interaction, data manipulation, and calculations in Dart.
  
+
+ ## Day 2:
+
+ * **Operators:** In Dart, operators are special symbols that perform operations on operands. Operands are the values or variables that the operators act upon. Operators manipulate these operands to produce a result. 
+    ```dart
+    //Arthematic operators.
+    print("These are arthematic operators: +, -, *, /"); //Arithmetic operators are used to perfom mathithmetical operations.
+    //Comparison operators.
+    print("These are comparison operatos: ==, >, <, >=, <=, !=");  //comparison operators are used to compare values and return true or false.
+    //Logical operators.
+    print("These are logical operators: &&, ||, ! ");  //Logical operators are used to combinely compare values and return true or false.
