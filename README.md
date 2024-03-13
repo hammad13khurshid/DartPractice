@@ -93,7 +93,7 @@ This repository serves as a dedicated space for my daily learning and practice o
       {
        print("Condition 2 is true");
       }
- 
+    ```dart
   2. User Input:
      - `stdin.readLineSync()`: Reads a line of text entered by the user from standard input (keyboard).
      - `int.parse()`: Converts a string representation of an integer to an actual integer value.
@@ -101,7 +101,7 @@ This repository serves as a dedicated space for my daily learning and practice o
   3. Switch Statement:
      - Evaluates an expression and executes a block of code corresponding to the matching case value.
      - A `default` case can handle values that dont match any specific case.
-     ```dart
+      ```dart
       int age = 20;
 
        switch age
@@ -115,6 +115,6 @@ This repository serves as a dedicated space for my daily learning and practice o
          default:
          print("Enter a valid age");
         } 
-
+      ```dart
   This program provides examples of these concepts through scenarios like checking eligibility for voting or scholarships based on age and CGPA. 
  
