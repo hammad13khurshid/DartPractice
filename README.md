@@ -115,6 +115,23 @@ This repository serves as a dedicated space for my daily learning and practice o
          default:
          print("Enter a valid age");
         } 
-      ```dart
+      
   This program provides examples of these concepts through scenarios like checking eligibility for voting or scholarships based on age and CGPA. 
  
+*  **Exception Handling:**  It is the Mechanism for managing unexpected errors during program execution.
+   ```dart
+   - Uses try-catch block to handle potential exceptions.
+   - 'try' block contains code that might throw exceptions.
+   - 'catch' block(s) specify what actions to take when exceptions occur.
+   - There are several types of exception handling available in Dart langugae for specific needs.
+   - Some types are: FormatException, IntegerDivisionByZeroException, SocketExceptio, and FileSystemException.
+   
+   //Syntax
+   try 
+   {
+    print("Try to execute this block of code.");
+   }
+   catch (e)
+   {
+    print("If an error occurs, execute this block of code");
+   }
