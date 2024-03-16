@@ -80,3 +80,24 @@ void main() {
   print(
       "\n******************************** Switch Statement ********************************\n\n");
 }
+
+
+/// This program demonstrates the use of conditional statements (if-else and nested if-else) and switch statements in Dart.
+
+/// It covers:
+/// - Basic conditional statements for decision-making based on conditions.
+/// - Nested conditional statements for handling multiple conditions within a single statement.
+/// - Switch statements for executing code based on different values of an expression.
+
+/// It includes examples for:
+/// - Comparing two numbers to determine the larger one.
+/// - Checking voting eligibility based on age.
+/// - Determining scholarship eligibility based on CGPA.
+
+/// It demonstrates the use of:
+/// - print() for output.
+/// - stdin for user input.
+/// - int type for representing integers.
+/// - comparison operators (>, >=, ==) for condition checks.
+/// - conditional statements (if, else if, else).
+/// - switch statement for multiple case-based execution.
