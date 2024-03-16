@@ -135,3 +135,39 @@ This repository serves as a dedicated space for my daily learning and practice o
    {
     print("If an error occurs, execute this block of code");
    }
+
+*  **Loops:**  Loops in Dart are programming constructs that allow you to execute a block of code repeatedly until a certain condition is met. 
+               They are essential tools for automating repetitive tasks and iterating through collections of data.
+   ***Types of Loops:*** 
+   1. `For Loop`: Used when you know beforehand how many times you want to execute the code block.
+   2. `For-in Loop`: Used to `iterate` through the elements of a collection (like `lists`, `maps`, `sets`).
+   3. `While Loop`: Used when the number of `iterations` is not known beforehand, and a condition determines when to stop.
+   4. `Do-While Loop`: Similar to `while` loop, but the code block is guaranteed to execute at least once, even if the condition is initially false.
+
+   //Syntax
+   ```dart
+   - For Loop : 
+     for (initialization; condition; increment/decrement) 
+         {
+         // Code to be executed repeatedly
+         }
+    
+    - For In Loop: 
+    for (element in collection) 
+    {
+      // Code to be executed for each element
+    }
+   
+   - While Loop: 
+   while (condition) 
+   {
+     // Code to be executed repeatedly
+   }
+  
+  - Do While Loop:
+    do {
+        // Code to be executed repeatedly
+       } 
+    while (condition);
+
+   
