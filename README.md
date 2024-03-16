@@ -164,7 +164,7 @@ This repository serves as a dedicated space for my daily learning and practice o
      // Code to be executed repeatedly
    }
   
-  - Do While Loop:
+   - Do While Loop:
     do {
         // Code to be executed repeatedly
        } 
