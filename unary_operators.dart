@@ -1,7 +1,5 @@
 // This program demonstrates the concept of unary operators in Dart Language.
 
-import 'dart:io';
-
 void main() {
   print(
       "\n\n******************************** Unary operators ********************************\n\n");
