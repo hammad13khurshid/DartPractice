@@ -170,4 +170,31 @@ This repository serves as a dedicated space for my daily learning and practice o
        } 
     while (condition);
 
-   
+*  **Unary Operators:**  Unary operators are used to modify the value of a variable by 1. They can be used in two ways: prefix and postfix. 
+   `Types`: 
+    1. Arithmetic Unary Operators.
+    2. Bitwise Unary Operator.
+    3. Logical NOT Operator.
+    
+    `Uses`
+    1. Prefix (++operand or --operand): The operator is applied before the operand. The value is incremented/decremented first, and then the new value is used.
+    2. Postfix (operand++ or operand--): The operator is applied after the operand. The current value of the operand is used first, and then it's incremented/decremented.
+
+    // syntax
+  ```dart
+    // ** Prefix Increment **
+  print("\n** Prefix Increment Examples: **");
+
+  print("num1 (before prefix increment): $num1"); // Show the value of num1 before increment
+  int incrementedNum1 = ++num1; // Increment num1 by 1 first, then assign the new value to incrementedNum1
+  print("num1 (after prefix increment): $num1"); // Show the value of num1 after increment
+  print("incrementedNum1 (using prefix increment): $incrementedNum1"); // Show the incremented value
+
+  // ** Postfix Increment **
+  print("\n** Postfix Increment Examples: **");
+
+  print("num2 (before postfix increment): $num2"); // Show the value of num2 before increment
+  int incrementedNum2 = num2++; // Use the current value of num2 first, then increment num2 by 1
+  print("num2 (after postfix increment): $num2"); // Show the value of num2 after increment
+  print("incrementedNum2 (using postfix increment): $incrementedNum2"); // Show the original value of num2 (used before increment)
+  
