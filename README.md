@@ -198,3 +198,30 @@ This repository serves as a dedicated space for my daily learning and practice o
   print("num2 (after postfix increment): $num2"); // Show the value of num2 after increment
   print("incrementedNum2 (using postfix increment): $incrementedNum2"); // Show the original value of num2 (used before increment)
   
+
+*  **Assignment Day 2:** Write a program in dart to check for strength of a password entered by the user.
+   `Concepts to be used in Password Checker Program in Dart`
+   ```dart
+    1. Comments:
+       - Used to explain the purpose of the program and code sections.
+
+    2. Input/Output:
+       - `import 'dart:io';` - Imports the 'dart:io' library for console input/output.
+       - `print`: Displays messages to the console.
+       - `stdin.readLineSync()!`: Reads user input as a string from the console.
+
+    3. Variables:
+       - `String password`: Stores the users entered password.
+       - `int strength`: Stores the calculated password strength score.
+
+    4. Conditional Statements:
+       - `if`, `else if`, `else`: Control the program flow based on password strength.
+
+    5. Functions:
+       - `checkPasswordStrength(String password)`: Evaluates the password strength and returns an integer score.
+
+    6. Regular Expressions (RegExp):
+       - Used within `password.contains(RegExp(...))` to check for specific character patterns in the password.
+
+    7. String Methods:
+       - `password.length`: Returns the length of the password string.
