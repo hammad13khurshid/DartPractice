@@ -225,3 +225,55 @@ This repository serves as a dedicated space for my daily learning and practice o
 
     7. String Methods:
        - `password.length`: Returns the length of the password string.
+
+## Day 3:
+
+ * **Functions:** In Dart, functions are reusable blocks of code that perform specific tasks.
+   `Advandatges of functions:`
+   1. Code Reusability: You can define a function once and call it from different parts of your program, avoiding code duplication.
+   2. Modularity: Functions break down complex programs into smaller, manageable units, improving code organization and readability.
+   3. Encapsulation: Functions can encapsulate logic and data, promoting better code maintainability.
+
+   `Types of functions:`
+   1. `Functions with No Arguments and No Return Type`: These functions are the simplest type. They perform some action but don't return any value explicitly. The `return type` is implicitly `void`.
+   2. `Functions with Arguments and No Return Type`: These functions take one or more arguments (`parameters`) but don't `return` a `value`. They often use the `arguments` to perform calculations or manipulations.
+   3. `Functions with No Arguments and Return Type`: These `functions` don't take any `arguments` but `return` a value of a specific type.
+   4. `Functions with Arguments and Return Type`: These are the most versatile type, combining `arguments` and a `return value`. They take arguments, perform operations using them, and return a calculated or manipulated value.
+   5. `Arrow Functions (Syntactic Sugar)`: These are a concise way to write short functions, especially for single-expression functions.
+   6.  `Anonymous Functions`: These are functions without a `name`, often used as `arguments` to other functions (higher-order functions).
+   7. `Recursive Functions`: These functions call themselves within their `definition`, leading to repeated execution until a base case is reached.
+
+   `Syntax`
+   
+```dart
+   // Function with no arguments and no return type (void)
+void printMessage() {
+  // Function body
+}
+
+// Function with arguments and no return type (void)
+void calculateDistance(int x1, int x2) {
+  // Function body
+}
+
+// Function with no arguments and return type (String)
+String getGreeting() {
+  return "Hello!"; // Example return value
+}
+
+// Function with arguments and return type (int)
+int addNumbers(int num1, int num2) {
+  int sum = num1 + num2;
+  return sum;
+}
+
+// Arrow function (syntactic sugar)
+int square(int x) => x * x;
+
+// Anonymous function (example usage in filtering)
+List<int> evenNumbers = numbers.where((num) => num % 2 == 0).toList();
+
+// Recursive function (example: factorial)
+int factorial(int n) {
+  // Base case and recursive call
+}
