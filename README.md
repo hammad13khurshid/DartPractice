@@ -181,24 +181,23 @@ This repository serves as a dedicated space for my daily learning and practice o
     2. Postfix (operand++ or operand--): The operator is applied after the operand. The current value of the operand is used first, and then it's incremented/decremented.
 
     // syntax
-  ```dart
-    // ** Prefix Increment **
-  print("\n** Prefix Increment Examples: **");
-
-  print("num1 (before prefix increment): $num1"); // Show the value of num1 before increment
-  int incrementedNum1 = ++num1; // Increment num1 by 1 first, then assign the new value to incrementedNum1
-  print("num1 (after prefix increment): $num1"); // Show the value of num1 after increment
-  print("incrementedNum1 (using prefix increment): $incrementedNum1"); // Show the incremented value
-
-  // ** Postfix Increment **
-  print("\n** Postfix Increment Examples: **");
-
-  print("num2 (before postfix increment): $num2"); // Show the value of num2 before increment
-  int incrementedNum2 = num2++; // Use the current value of num2 first, then increment num2 by 1
-  print("num2 (after postfix increment): $num2"); // Show the value of num2 after increment
-  print("incrementedNum2 (using postfix increment): $incrementedNum2"); // Show the original value of num2 (used before increment)
+     ```dart
+       // ** Prefix Increment **
+     print("\n** Prefix Increment Examples: **");
+   
+     print("num1 (before prefix increment): $num1"); // Show the value of num1 before increment
+     int incrementedNum1 = ++num1; // Increment num1 by 1 first, then assign the new value to incrementedNum1
+     print("num1 (after prefix increment): $num1"); // Show the value of num1 after increment
+     print("incrementedNum1 (using prefix increment): $incrementedNum1"); // Show the incremented value
+   
+     // ** Postfix Increment **
+     print("\n** Postfix Increment Examples: **");
+   
+     print("num2 (before postfix increment): $num2"); // Show the value of num2 before increment
+     int incrementedNum2 = num2++; // Use the current value of num2 first, then increment num2 by 1
+     print("num2 (after postfix increment): $num2"); // Show the value of num2 after increment
+     print("incrementedNum2 (using postfix increment): $incrementedNum2"); // Show the original value of num2 (used before increment)
   
-
 *  **Assignment Day 2:** Write a program in dart to check for strength of a password entered by the user.
    `Concepts to be used in Password Checker Program in Dart`
    ```dart
