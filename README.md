@@ -244,35 +244,67 @@ This repository serves as a dedicated space for my daily learning and practice o
 
    `Syntax`
    
-```dart
-   // Function with no arguments and no return type (void)
-void printMessage() {
-  // Function body
-}
+   ```dart
+      // Function with no arguments and no return type (void)
+   void printMessage() {
+     // Function body
+   }
+   
+   // Function with arguments and no return type (void)
+   void calculateDistance(int x1, int x2) {
+     // Function body
+   }
+   
+   // Function with no arguments and return type (String)
+   String getGreeting() {
+     return "Hello!"; // Example return value
+   }
+   
+   // Function with arguments and return type (int)
+   int addNumbers(int num1, int num2) {
+     int sum = num1 + num2;
+     return sum;
+   }
+   
+   // Arrow function (syntactic sugar)
+   int square(int x) => x * x;
+   
+   // Anonymous function (example usage in filtering)
+   List<int> evenNumbers = numbers.where((num) => num % 2 == 0).toList();
 
-// Function with arguments and no return type (void)
-void calculateDistance(int x1, int x2) {
-  // Function body
-}
+   // Recursive function (example: factorial)
+   int factorial(int n) {
+     // Base case and recursive call
+   }
 
-// Function with no arguments and return type (String)
-String getGreeting() {
-  return "Hello!"; // Example return value
-}
+* **Object Oriented Programming:** Object-Oriented Programming (OOP) in Dart is a programming paradigm that revolves around creating objects to model real-world entities and their interactions. Here's a breakdown of its core concepts:
 
-// Function with arguments and return type (int)
-int addNumbers(int num1, int num2) {
-  int sum = num1 + num2;
-  return sum;
-}
+  `Classes and Objects`:
+    - `Class`: A blueprint or template that defines the `properties` (attributes) and functionalities (methods) that objects of that class will share.    Think of it as a recipe for creating objects.
+    - `Object`: An `instance` of a class. It represents a specific entity with its own set of `properties` and `methods`, like a particular cake baked from the recipe (class).
+    - `Properties` (Attributes): `Variables` used to store data unique to each `object`, defining its state or characteristics.
+    - `Methods`: `Functions` defined within a `class` that operate on the object's data, representing its behavior or actions it can perform.
 
-// Arrow function (syntactic sugar)
-int square(int x) => x * x;
+ Dart fully supports OOP concepts. You can define classes using the class keyword, create objects using the new keyword (optional in newer Dart versions), and access/modify object properties and call methods using dot notation.
 
-// Anonymous function (example usage in filtering)
-List<int> evenNumbers = numbers.where((num) => num % 2 == 0).toList();
+  ```dart
+  class Person {
+   //Properties (Attributes):** Variables representing characteristics of a person.
+   String name = "";
+   int age = 0;
+   
+   // Method: A function defined within the class to perform a specific action.
+   void greet() 
+   {
+    print("Hello, my name is $name and I am $age years old.");
+   }
+   }
 
-// Recursive function (example: factorial)
-int factorial(int n) {
-  // Base case and recursive call
-}
+   // Create objects (instances) of the Person class
+   Person person1 = Person();
+   person1.name = "Alice";
+   person1.age = 30;
+
+   person1.greet(); // Call the greet method on the object
+
+  This example program demonstrates a simple Person class with properties (name and age) and a greet method. You create objects (person1) and use them to represent specific people.
