@@ -53,3 +53,29 @@ void main() {
   print(
       "\n\n*************************** Classes in OOP ************************\n\n");
 }
+
+/*
+** Summary of Topics Covered in this Dart Program **
+
+- **Classes in OOP:**
+   - Introduction to classes as blueprints for creating objects.
+   - Explanation of key concepts:
+       - Class
+       - Object
+       - Properties (Attributes)
+       - Methods
+- **Creating and Using a Class:**
+   - Definition of a Person class with name and age properties, and a greet method.
+   - Creation of Person objects (instances) in the main function.
+   - Setting and accessing object properties.
+   - Calling the greet method on objects to demonstrate object behavior.
+- **Code Structure and Execution:**
+   - Use of print statements for output and explanations.
+   - Demonstration of object creation and method calls within the main function.
+- **Key OOP Concepts Illustrated:**
+   - Encapsulation: Data and behavior are grouped within the Person class.
+   - Reuse: The Person class definition can be used to create multiple objects.
+   - Polymorphism (not explicitly shown in this example): Objects of the same class can have different behaviors based on their state.
+
+**Overall, this program serves as a clear and practical introduction to classes and objects in Dart, effectively demonstrating fundamental OOP concepts.**
+*/
