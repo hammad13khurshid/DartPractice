@@ -287,24 +287,50 @@ This repository serves as a dedicated space for my daily learning and practice o
 
  Dart fully supports OOP concepts. You can define classes using the class keyword, create objects using the new keyword (optional in newer Dart versions), and access/modify object properties and call methods using dot notation.
 
-  ```dart
-  class Person {
-   //Properties (Attributes):** Variables representing characteristics of a person.
-   String name = "";
-   int age = 0;
+   ```dart
+   class Person {
+    //Properties (Attributes):** Variables representing characteristics of a person.
+    String name = "";
+    int age = 0;
    
-   // Method: A function defined within the class to perform a specific action.
-   void greet() 
-   {
-    print("Hello, my name is $name and I am $age years old.");
-   }
-   }
+    // Method: A function defined within the class to perform a specific action.
+    void greet() 
+    {
+      print("Hello, my name is $name and I am $age years old.");
+    }
+    }
 
-   // Create objects (instances) of the Person class
-   Person person1 = Person();
-   person1.name = "Alice";
-   person1.age = 30;
+    // Create objects (instances) of the Person class
+    Person person1 = Person();
+    person1.name = "Alice";
+    person1.age = 30;
 
-   person1.greet(); // Call the greet method on the object
-
+    person1.greet(); // Call the greet method on the object
+  ```
   This example program demonstrates a simple Person class with properties (name and age) and a greet method. You create objects (person1) and use them to represent specific people.
+
+ * **Null Safety in Dart:** Null safety is a feature in Dart that helps prevent crashes caused by using variables without a value. 
+   Imagine a variable like a box. In null-safe code, the box must always have something inside (a value).
+   `Key Features`:
+   - `Non-nullable variables`: We use an exclamation mark (!) after the type to declare a variable that cannot be null.
+     For example: `String name! = 'Alice';`  // This name variable must have a value and cannot be null.   
+   - `Null checks`: We use the null-conditional operator (`?`.) to safely access properties or call methods on variables that might be null.
+     For example:  `String? maybeName = null;`  // This maybeName variable can be null.
+
+  Example Program 
+  ```dart
+  void main() {
+  // 1. Non-nullable variable with assertion
+  print("Enter your name: ");
+  String name = stdin.readLineSync()!;  // Ensures non-null using assertion
+
+  // 2. Null check with null-conditional operator (?.)
+  String? greeting;  // Can be null
+
+  if (name.isNotEmpty) {
+    greeting = "Hello, $name!";  // Safe access using null check
+  } else {
+    greeting = "Please enter a name.";
+  }
+  ```
+ Null check is a precautionary measure in programming to ensure that a variable is not null (meaning it has a value) before attempting to use it. It's crucial to prevent runtime errors or crashes caused by attempting operations on null values.
