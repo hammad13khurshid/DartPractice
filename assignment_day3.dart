@@ -1,3 +1,4 @@
+// Import necessary libraries
 import 'dart:io';
 import 'dart:math' as math; // Import for advanced math functions
 
@@ -5,23 +6,22 @@ import 'dart:math' as math; // Import for advanced math functions
 double calculate(double num1, double num2, String operator) {
   switch (operator) {
     case '+':
-      // Addition operation
+      // Add the two numbers
       return num1 + num2;
     case '-':
-      // Subtraction operation
+      // Subtract the second number from the first number
       return num1 - num2;
     case '*':
-      // Multiplication operation
+      // Multiply the two numbers
       return num1 * num2;
     case '/':
-      // Division operation with error handling for division by zero
+      // Divide the first number by the second number with error handling
       if (num2 == 0) {
         throw Exception("Division by zero is not allowed!");
       }
       return num1 / num2;
-
     default:
-      // Handling invalid operator input
+      // Throw an exception for invalid operator
       throw Exception("Invalid operator!");
   }
 }
@@ -66,7 +66,7 @@ double advancedOperation(double num, String operator) {
       }
       return math.sqrt(num);
     default:
-      // Handle invalid advanced operation input
+      // Throw an exception for invalid advanced operation
       throw Exception("Invalid advanced operation!");
   }
 }
@@ -107,5 +107,10 @@ void main() {
     keepGoing = answer?.toLowerCase() == 'y';
   }
 
-  print("Calculator closed. Thank you for using it!");
+  print("\n\nThank you for using my Advanced Calculator!\n\n");
 }
+
+// This program implements an advanced calculator with features like basic arithmetic operations (+, -, *, /),
+// advanced mathematical functions (sin, cos, tan, log, ln, sqrt), and user-friendly interaction.
+// It utilizes functions for modularity and error handling to ensure robustness.
+// The program prompts users for input, performs calculations based on their choices, and displays the results.
