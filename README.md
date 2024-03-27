@@ -334,3 +334,10 @@ This repository serves as a dedicated space for my daily learning and practice o
   }
   ```
  Null check is a precautionary measure in programming to ensure that a variable is not null (meaning it has a value) before attempting to use it. It's crucial to prevent runtime errors or crashes caused by attempting operations on null values.
+
+ * **Assignment Day 3:** Advanced Calculator Program.
+
+   - This program implements an advanced calculator with features like basic `arithmetic operations` (+, -, *, /),
+   - Advanced mathematical functions (`sin, cos, tan, log, ln, sqrt`), and user-friendly interaction.
+   - It utilizes functions for modularity and error handling to ensure robustness.
+   - The program prompts users for input, performs calculations based on their choices, and displays the results.
